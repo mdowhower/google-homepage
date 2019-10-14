@@ -1,35 +1,21 @@
 body {
     background: #ffffff;
     color: #222222;
+    font-family: arial,sans-serif;
 }body, html{
     font-size: small;
-}
-html, body {
     height:100%;
     margin:0;
-}
-body{
     display: block;
 }
 #topnav {
     float top;
-    font-size:14px;
-}
-#topnavleft {
-    float:left;
-    width:100px;
-}
-#topnavright {
-    float:right;
-    width:300px:
-}
-img {
-    padding-top: 100px;
 }
 input {
     float:none;
     padding-left:100px;
     border-radius:20px;
+    width: 35%;
     height:30px;
 }
 button {
@@ -44,4 +30,22 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius:8px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+  }
+  a {
+      color:black;
   }
